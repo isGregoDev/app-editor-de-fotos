@@ -55,3 +55,7 @@ Estas versiones son importantes para asegurar la compatibilidad y el correcto fu
 - **src/components/Editor.tsx**: Contiene la lógica de aplicación de filtros, controles interactivos y funcionalidad de descarga
 - **src/components/Navbar.tsx**: Maneja la carga de imágenes (URL y archivos locales) y los controles de reset
 - **src/types/editor.d.ts**: Define interfaces TypeScript para los filtros y propiedades del componente
+
+## Licencia
+
+Este proyecto es de código abierto y está disponible bajo la Licencia MIT.
