@@ -32,8 +32,7 @@ Estas versiones son importantes para asegurar la compatibilidad y el correcto fu
 1. Clona el repositorio:
 
    ```bash
-   git clone <repository-url>
-   cd app-pokemonapi
+   git clone https://github.com/isGregoDev/app-editor-de-fotos.git
    ```
 
 2. Instala las dependencias:
