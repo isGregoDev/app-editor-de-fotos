@@ -1,0 +1,90 @@
+/* src/index.css */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f5f5f5;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background: #eee;
+  gap: 1rem;
+}
+
+.announcement {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: #ffcc00;
+  font-size: 2rem;
+  font-weight: bold;
+  border-bottom: 2px solid #ffcc00;
+}
+
+button {
+  padding: 1rem;
+  background: #333;
+  color: #ffcc00;
+  font-size: 0.7rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.app {
+  max-width: 960px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.editor {
+  padding: 1rem;
+}
+
+.image-wrapper {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.image-wrapper img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.file-input {
+  display: block;
+  margin: 10px 0;
+}
+
+.file-input::file-selector-button {
+  padding: 8px 15px;
+  background: #ffcc00;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
